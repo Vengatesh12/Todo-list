@@ -1,0 +1,6 @@
+creation_rules:
+  - gcp_kms: projects/iron-wave-434723-e4/locations/northamerica-northeast1/keyRings/my-keyring/cryptoKeys/my-key
+    path_regex: '.*\.yaml$'
+    encrypted_regex: '^(data)$'
+
+
